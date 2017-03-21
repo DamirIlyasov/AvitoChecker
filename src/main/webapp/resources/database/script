@@ -1,0 +1,8 @@
+
+CREATE TABLE advertisements (
+    "year" INTEGER,
+    "price" INTEGER,
+    "city" TEXT,
+    "description" TEXT,
+    "created_at" TEXT not null unique 
+)
